@@ -1,0 +1,6 @@
+.cards {
+  border: solid 2px red;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+}

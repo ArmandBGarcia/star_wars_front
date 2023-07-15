@@ -1,14 +1,11 @@
 import React from "react";
-import { Card } from "./components/card";
-
+import { Home } from "./pages/Home";
 import "./App.css";
-import { Counter } from "./components/Counter";
 
 function App() {
   return (
     <div>
-      <Card />
-      <Counter />
+      <Home />
     </div>
   );
 }
